@@ -2,6 +2,9 @@
 
 all: cv.pdf
 
+resume:
+	latexmk -pdf resume.tex
+
 cv.pdf:
 	latexmk -pdf cv.tex
 
